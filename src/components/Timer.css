@@ -1,0 +1,19 @@
+.time{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    background-image: url('C:\Users\Gowtham M\OneDrive\Desktop\temo\my-app\public\Images\timer.jpg');
+    background-position: center;
+    background-size: cover;
+}
+#align{
+    float: right;
+    margin-top: 10%;
+    margin-right: 5%;
+}
+#align h1{
+    color: white;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}

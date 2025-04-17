@@ -1,0 +1,75 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+.button-container {
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hello img{
+  text-align: center;
+  margin-left: 15%;
+}
+.button-container h1 {
+  font-family: "Vast Shadow", serif;
+  font-weight: 300;
+  font-size: 40px;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.button-container h3 {
+  font-family: "Walter Turncoat", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.button-container h1{
+  text-align: center;
+  color: black;
+}
+
+.button {
+  justify-content: center;
+  text-align: center;
+  padding: 50px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  height: 200px;
+  width: 200px;
+  margin: 50px 100px;
+  margin-left: 12%;
+  background-color: rgb(83, 81, 81);
+  border-radius: 18px;
+  border-style: none;
+  color: aliceblue;
+}
+
+.button{
+  -webkit-box-shadow: 10px 27px 47px 10px rgba(22,26,25,1);
+-moz-box-shadow: 10px 27px 47px 10px rgba(22,26,25,1);
+box-shadow: 10px 27px 47px 10px rgba(22,26,25,1);
+  /* -webkit-box-shadow: 10px 27px 5px 0px rgba(245,250,249,0.7);
+-moz-box-shadow: 10px 27px 5px 0px rgba(245,250,249,0.7);
+box-shadow: 10px 27px 5px 0px rgba(245,250,249,0.7); */
+}
+
+.button:hover{
+  transform: translateY(5px);
+  transition: 0.3s;
+
+  -webkit-box-shadow: -75px 33px 67px 12px rgba(22,26,25,0.81);
+-moz-box-shadow: -75px 33px 67px 12px rgba(22,26,25,0.81);
+box-shadow: -75px 33px 67px 12px rgba(22,26,25,0.81);
+}
+.full{
+ 
+  width: 100vw;
+  height: 100vh;
+background-image: url('C:\Users\Gowtham M\OneDrive\Desktop\temo\my-app\public\Grids.jpg');
+background-size: cover; 
+overflow: hidden;
+
+}

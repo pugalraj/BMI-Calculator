@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.locate{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: aquamarine; */
+    background-image: url('C:\Users\Gowtham M\OneDrive\Desktop\temo\my-app\src\components\location.jpg');
+    background-size: cover; 
+    float: left;
+    /* text-align: left; */
+    /* justify-content: left; */
+    
+
+}
+#first h1{
+    color: rgb(246, 239, 239);
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    float: left;
+    
+  
+
+}
+
+.first input{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    float: left;
+    border: 1px solid white;
+}
+.second input{
+   
+        background-color: black;
+        color: white;
+        border-radius: 15px;
+        float: left;
+        border: 1px solid white;
+    
+}
+.first ::placeholder {
+    color: white;
+    font-size: 15px;
+}
+.second ::placeholder {
+    color: white;
+    font-size: 15px;
+
+}
+.first value{ 
+    color:white
+}
+.btn1 button{
+    border-radius: 50px;
+    float: left;
+    background-color:black ;
+    
+}
+.btn1 button {
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  .btn3{
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    float: left;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: italic;
+    height: 50px;
+    width: 200px;
+  }

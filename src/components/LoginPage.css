@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    /* background-image: url("/public/running.jpg"); */
+    /* background-image: url('/my-app/public/background3.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    /* background-color: #84e0e9; */
+    /* background-image: url('C:\Users\Gowtham M\OneDrive\Desktop\temo\my-app\src\components\pexels-deon-black-3867281-5750475.jpg'); */
+    /* /* width:100wh ; */
+    height: 70vh; 
+    margin-bottom: 0;
+
+  }
+  #bg{
+    background-image: url('C:\Users\Gowtham M\OneDrive\Desktop\temo\my-app\src\components\pexels-deon-black-3867281-5750475.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+  }
+  .login-container {
+    margin-top: 0;
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: transparent;
+  }
+  
+  .login-container h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+    text-align: center;
+    
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #d1eb6b;
+  }
+  
+  .input-group input {
+    width: 50%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+  }
+  
+  .input-group input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  #btn {
+    width: 20%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #e4e4da;
+  color:#170606;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  /* button:hover {
+    background-color: #0056b3;
+  } */
+  
+  .error-message {
+    margin-top: 10px;
+    color: red;
+    font-size: 14px;
+  }
+
+h1 , label{
+    font-family: "Walter Turncoat", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:rgb(220, 223, 27);
+
+    
+  }
+  .login-container h2 {
+    font-family: "Audiowide", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    /* background-color: #6f6b6b; */
+    border-radius: 50px;
+  }
+  .input-group input{
+    background-color: rgb(246, 240, 240);
+    color: rgb(10, 9, 9);
+  }
+  
+
+  

@@ -1,0 +1,75 @@
+.fat{
+ height: 100vh;
+ width: 100vw;
+background-image:url('C:\Users\Gowtham M\OneDrive\Desktop\temo\my-app\public\Fats.jpg') ;
+ overflow: hidden;
+ background-position: center;
+ background-size: cover;
+}
+.fat-calculator {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 400px;
+    margin: auto;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 5%;
+  }
+  
+  .fat-calculator h1{
+    color: black;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+  }
+  
+  
+  input {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    height: 10px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+  }
+  
+  .button-group {
+    margin-top: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  button:first-child {
+    background-color: #262724;
+    color: white;
+    border-radius: 15px;
+  }
+  
+  .reset {
+    background-color: #c1b9b9;
+    color: white;
+    border-radius: 15px;
+  }
+  
+  .result {
+    margin-top: 15px;
+    font-size: 1.2rem;
+    color: #333;
+  }
+
+  

@@ -1,0 +1,46 @@
+.images{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-image: url('C:\Users\Gowtham M\OneDrive\Desktop\temo\my-app\public\exercise.jpg');
+ background-size: cover;
+background-position: center;
+}
+.imgs img{
+     padding: 50px;
+     text-align: center;
+     
+     
+}
+.imgs{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+.caption a{
+    text-decoration: none;
+    color: rgb(231, 223, 223);
+    cursor: pointer;
+    text-shadow: 35px 5px 13px rgba(222, 216, 216, 0.76);
+
+}
+.caption a:hover{
+    text-shadow: -65px 1px 13px rgba(247, 242, 242, 0.76);
+    transition: 0.4s;
+
+}
+.imgs img:hover{
+    transform: translateY(5px);
+    transition: 0.4s;
+}
+.fa-arrow-pointer{
+    color: white;
+    margin-left: 15px;
+}
+.images h1{
+    color: rgb(246, 239, 239);
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
